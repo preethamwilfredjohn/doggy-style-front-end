@@ -1,0 +1,17 @@
+{
+  "name": "doggyStyle-FrontEnd",
+  "displayName": "doggyStyle-FrontEnd",
+  "expo": {
+    "name": "doggyStyle-FrontEnd",
+    "slug": "doggyStyle-FrontEnd",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
