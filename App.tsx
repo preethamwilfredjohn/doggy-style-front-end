@@ -1,19 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { DogProfile } from './src/view/DogProfile.js';
+import { Header } from './src/section/Header.js';
+import { View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+    <View>
+      <Header />
+      <DogProfile />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
